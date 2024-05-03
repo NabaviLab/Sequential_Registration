@@ -90,7 +90,7 @@ def main(input_folder, output_folder):
 
 if __name__ == '__main__':
     start_time = time.time()
-    main('./20X', './output')
+    main('./input', './output')
     end_time = time.time()
     print(" -------------------------------- Time to run --------------------------------")
     print(end_time - start_time)
